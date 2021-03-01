@@ -1,6 +1,6 @@
 ## Running Locally
 
-# ## Requirements:
+### Requirements:
 - Make sure you have Python 3.8 at least
 - Install the dlib library by following this instruction: https://github.com/davisking/dlib
 
