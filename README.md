@@ -18,5 +18,22 @@ $ createdb python_getting_started
 $ python manage.py migrate
 $ python manage.py collectstatic
 
-```
+
+### Usage
+1. Upload photo to later crosscheck with
+
+Call post request to http://127.0.0.1:8000/upload/ in JSON format
+Body template: {
+    "file": "",
+    "name": ""
+}
+
+
+2. Crosscheck a image against existing photo
+
+Call post request to http://127.0.0.1:8000/check/ in JSON format
+Body template: {
+    "file": "",
+    "name": ""
+}
 
